@@ -23,7 +23,7 @@ module.exports = {
         });
     });
 
-    this.logger(output.join('\n'));
+    this.logger(`\n\n${output.join('\n')}\n\n`);
   },
   findEnv: function (env) {
     let resources = config.util.getConfigSources();
