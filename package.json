@@ -1,0 +1,20 @@
+{
+  "name": "node-config-examiner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marborkowski/node-config-examiner",
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Marcin Borkowski <marborkowski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "diff-json-structure": "^1.0.8"
+  },
+  "devDependencies": {
+    "chalk": "^2.3.2"
+  },
+  "peerDependencies": {
+    "config": "^1.30.0"
+  }
+}
