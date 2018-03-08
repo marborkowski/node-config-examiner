@@ -23,17 +23,7 @@ module.exports = {
         });
     });
 
-    const message = `
-  
-    ${chalk.red('******************************************************************************************************************************')}
-    ${chalk.red('IMPORTANT!!!')}
-    ${chalk.red(`PLEASE SEE ALL THE DIFFERENCES IN THE CONFIGURATION BETWEEN YOUR CURRENT ENVIRONMENT \`${env}\` AND THE DEFAULT ONE`)}
-    ${chalk.red('******************************************************************************************************************************')}
-    
-    ${output.join('\n')}`;
-
-    this.logger(message);
-
+    this.logger(output.join('\n'));
   },
   findEnv: function (env) {
     let resources = config.util.getConfigSources();
