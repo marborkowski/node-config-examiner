@@ -3,7 +3,7 @@
 const diff = require('diff-json-structure');
 const chalk = require('chalk');
 const config = require('config');
-const env = process.env.NODE_ENV || 'default';
+const env = process.env.NODE_CONFIG_ENV || process.env.NODE_ENV || 'default';
 
 module.exports = {
   logger: () => {},
