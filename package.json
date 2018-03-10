@@ -1,8 +1,21 @@
 {
   "name": "node-config-examiner",
   "version": "1.0.3",
-  "main": "index.js",
+  "main": "./lib/examiner.js",
   "repository": "https://github.com/marborkowski/node-config-examiner",
+  "keywords": [
+    "conf",
+    "config",
+    "configuration",
+    "node-config",
+    "config-node",
+    "env",
+    "environment",
+    "examiner",
+    "examination",
+    "diff",
+    "difference"
+  ],
   "engines": {
     "node": ">=6"
   },
